@@ -46,6 +46,13 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/system/lib64/libmorpho_memory_allocator.so:system/lib64/libmorpho_memory_allocator.so \
     $(VENDOR_PATH)/system/lib64/libmorpho_panorama.so:system/lib64/libmorpho_panorama.so \
     $(VENDOR_PATH)/system/lib64/libmorpho_panorama_gp.so:system/lib64/libmorpho_panorama_gp.so \
+    $(VENDOR_PATH)/system/priv-app/MiuiCamera/lib/arm64/libCameraEffectJNI.so:system/priv-app/MiuiCamera/lib/arm64/libCameraEffectJNI.so \
+    $(VENDOR_PATH)/system/priv-app/MiuiCamera/lib/arm64/libcutils.so:system/priv-app/MiuiCamera/lib/arm64/libcutils.so \
+    $(VENDOR_PATH)/system/priv-app/MiuiCamera/lib/arm64/libmorpho_group_portrait.so:system/priv-app/MiuiCamera/lib/arm64/libmorpho_group_portrait.so \
+    $(VENDOR_PATH)/system/priv-app/MiuiCamera/lib/arm64/libmorpho_groupshot.so:system/priv-app/MiuiCamera/lib/arm64/libmorpho_groupshot.so \
+    $(VENDOR_PATH)/system/priv-app/MiuiCamera/lib/arm64/libmorpho_memory_allocator.so:system/priv-app/MiuiCamera/lib/arm64/libmorpho_memory_allocator.so \
+    $(VENDOR_PATH)/system/priv-app/MiuiCamera/lib/arm64/libmorpho_panorama.so:system/priv-app/MiuiCamera/lib/arm64/libmorpho_panorama.so \
+    $(VENDOR_PATH)/system/priv-app/MiuiCamera/lib/arm64/libmorpho_panorama_gp.so:system/priv-app/MiuiCamera/lib/arm64/libmorpho_panorama_gp.so
 
 PRODUCT_PACKAGES += \
     MiuiCamera
